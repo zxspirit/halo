@@ -51,6 +51,7 @@ import run.halo.app.infra.utils.YamlUnstructuredLoader;
 public class YamlPluginFinder {
     static final DevelopmentPluginClasspath PLUGIN_CLASSPATH = new DevelopmentPluginClasspath();
     public static final String DEFAULT_PROPERTIES_FILE_NAME = "plugin.yaml";
+    private static final String DEFAULT_PROPERTIES_FILE_NAME2 = "plugin.yml";
     private final String propertiesFileName;
 
     public YamlPluginFinder() {
